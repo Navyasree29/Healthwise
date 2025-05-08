@@ -1,0 +1,795 @@
+{
+    "itching": {
+      "description": "An uncomfortable sensation that provokes the desire to scratch.",
+      "causes": "Allergic reactions, skin conditions like eczema, parasitic infestations such as scabies",
+      "precautions": "Avoid known allergens and irritants, maintain good skin hygiene.",
+      "treatment": "Use antihistamines, topical creams, and consult a dermatologist if persistent."
+    },
+    "skin_rash": {
+      "description": "A noticeable change in the texture or color of the skin.",
+      "causes": "Infections (viral, bacterial, fungal), allergic reactions, autoimmune diseases",
+      "precautions": "Avoid contact with irritants and allergens, keep skin clean and moisturized.",
+      "treatment": "Topical corticosteroids, antihistamines, and proper skin care as recommended by a healthcare provider."
+    },
+    "nodal_skin_eruptions": {
+      "description": "Lumps or swellings on the skin that may indicate an underlying condition.",
+      "causes": "Infections, inflammatory conditions, malignancies",
+      "precautions": "Monitor skin changes and avoid self-diagnosis.",
+      "treatment": "Medical evaluation is needed; treatment depends on the underlying cause."
+    },
+    "continuous_sneezing": {
+      "description": "Frequent, uncontrollable sneezing episodes.",
+      "causes": "Allergic rhinitis, upper respiratory infections, exposure to irritants",
+      "precautions": "Avoid known allergens and polluted environments.",
+      "treatment": "Antihistamines, nasal sprays, and avoiding triggers."
+    },
+    "shivering": {
+      "description": "Involuntary muscle contractions that result in shaking.",
+      "causes": "Fever, cold exposure, infections",
+      "precautions": "Keep warm and monitor body temperature.",
+      "treatment": "Warm fluids, blankets, and treatment of the underlying cause."
+    },
+    "chills": {
+      "description": "Feelings of coldness often accompanied by shivering.",
+      "causes": "Infections, malaria, influenza",
+      "precautions": "Avoid prolonged exposure to cold, rest and hydrate.",
+      "treatment": "Treat the underlying infection, use warm clothing and fluids."
+    },
+    "joint_pain": {
+      "description": "Aches or discomfort in the joints.",
+      "causes": "Arthritis, injuries, infections",
+      "precautions": "Avoid excessive strain on joints and maintain a healthy weight.",
+      "treatment": "Pain relievers, anti-inflammatory medications, and physical therapy."
+    },
+    "stomach_pain": {
+      "description": "Pain or discomfort in the abdominal area.",
+      "causes": "Gastritis, peptic ulcers, gastroenteritis",
+      "precautions": "Avoid spicy and acidic foods; maintain a balanced diet.",
+      "treatment": "Antacids, dietary adjustments, and consultation with a healthcare provider."
+    },
+    "acidity": {
+      "description": "A burning sensation in the chest or throat caused by stomach acid reflux.",
+      "causes": "Gastroesophageal reflux disease (GERD), dietary habits, hiatal hernia",
+      "precautions": "Avoid trigger foods, eat smaller meals, and do not lie down immediately after eating.",
+      "treatment": "Antacids, proton pump inhibitors, and lifestyle modifications."
+    },
+    "ulcers_on_tongue": {
+      "description": "Open sores or lesions on the tongue.",
+      "causes": "Canker sores, viral infections, nutritional deficiencies",
+      "precautions": "Avoid spicy or acidic foods and maintain good oral hygiene.",
+      "treatment": "Topical anesthetics, mouth rinses, and addressing nutritional deficiencies."
+    },
+    "muscle_wasting": {
+      "description": "Loss of muscle mass and strength over time.",
+      "causes": "Malnutrition, neuromuscular diseases, prolonged immobility",
+      "precautions": "Ensure adequate nutrition and regular exercise as tolerated.",
+      "treatment": "Nutritional support, physical therapy, and addressing the underlying condition."
+    },
+    "vomiting": {
+      "description": "Forceful expulsion of stomach contents through the mouth.",
+      "causes": "Gastroenteritis, food poisoning, pregnancy",
+      "precautions": "Avoid dehydration by sipping fluids slowly.",
+      "treatment": "Oral rehydration solutions, antiemetics, and rest."
+    },
+    "burning_micturition": {
+      "description": "A burning sensation during urination.",
+      "causes": "Urinary tract infections, sexually transmitted infections, bladder stones",
+      "precautions": "Maintain proper hydration and hygiene.",
+      "treatment": "Antibiotics or other medications as prescribed by a healthcare provider."
+    },
+    "spotting_urination": {
+      "description": "Light bleeding or spotting during urination.",
+      "causes": "Urinary tract infections, menstrual irregularities, trauma or irritation",
+      "precautions": "Seek medical advice if spotting persists.",
+      "treatment": "Diagnosis to determine the cause followed by appropriate treatment."
+    },
+    "fatigue": {
+      "description": "A state of tiredness or lack of energy.",
+      "causes": "Anemia, sleep disorders, chronic fatigue syndrome",
+      "precautions": "Ensure adequate sleep and a balanced diet.",
+      "treatment": "Lifestyle modifications, rest, and addressing the underlying cause."
+    },
+    "weight_gain": {
+      "description": "An increase in body weight.",
+      "causes": "Hypothyroidism, Cushing's syndrome, excessive calorie intake",
+      "precautions": "Monitor dietary intake and exercise regularly.",
+      "treatment": "Lifestyle changes and treatment of any underlying endocrine disorders."
+    },
+    "anxiety": {
+      "description": "Feelings of worry, nervousness, or unease.",
+      "causes": "Stress, mental health disorders, substance abuse",
+      "precautions": "Practice stress management and seek support when needed.",
+      "treatment": "Therapy, counseling, and possibly medication as advised by a professional."
+    },
+    "cold_hands_and_feets": {
+      "description": "Unusually cold extremities.",
+      "causes": "Poor circulation, Raynaud's disease, hypothyroidism",
+      "precautions": "Keep extremities warm and avoid smoking.",
+      "treatment": "Improve circulation through lifestyle changes and treat the underlying condition."
+    },
+    "mood_swings": {
+      "description": "Rapid and extreme changes in emotional state.",
+      "causes": "Bipolar disorder, hormonal imbalances, stress",
+      "precautions": "Maintain a stable routine and manage stress levels.",
+      "treatment": "Counseling, mood stabilizers, and proper medical evaluation."
+    },
+    "weight_loss": {
+      "description": "Unintentional loss of body weight.",
+      "causes": "Hyperthyroidism, cancer, chronic infections",
+      "precautions": "Monitor dietary intake and seek medical evaluation if unexplained.",
+      "treatment": "Address underlying causes and consider nutritional support."
+    },
+    "restlessness": {
+      "description": "An inability to relax or remain still.",
+      "causes": "Anxiety, restless leg syndrome, stimulant use",
+      "precautions": "Engage in calming activities and avoid stimulants.",
+      "treatment": "Stress management, lifestyle modifications, and medical advice if persistent."
+    },
+    "lethargy": {
+      "description": "A state of sluggishness or drowsiness.",
+      "causes": "Depression, hypothyroidism, chronic fatigue syndrome",
+      "precautions": "Ensure proper rest and balanced nutrition.",
+      "treatment": "Lifestyle changes, medical evaluation, and treating the underlying cause."
+    },
+    "patches_in_throat": {
+      "description": "Visible spots or patches in the throat area.",
+      "causes": "Strep throat, oral thrush, mononucleosis",
+      "precautions": "Maintain good oral hygiene and avoid irritants.",
+      "treatment": "Antibiotics or antifungal medications as prescribed."
+    },
+    "irregular_sugar_level": {
+      "description": "Fluctuations in blood glucose levels.",
+      "causes": "Diabetes mellitus, pancreatic disorders, hormonal imbalances",
+      "precautions": "Monitor blood sugar levels regularly and maintain a balanced diet.",
+      "treatment": "Medications, insulin therapy, and lifestyle management."
+    },
+    "cough": {
+      "description": "A reflex action to clear the airways of irritants or mucus.",
+      "causes": "Common cold, asthma, chronic obstructive pulmonary disease (COPD)",
+      "precautions": "Avoid irritants such as smoke and pollutants.",
+      "treatment": "Cough suppressants, expectorants, and treating the underlying cause."
+    },
+    "high_fever": {
+      "description": "An elevated body temperature, typically above 103°F (39.4°C).",
+      "causes": "Severe infections, heatstroke, inflammatory conditions",
+      "precautions": "Stay hydrated and avoid overheating.",
+      "treatment": "Antipyretics, cooling measures, and medical evaluation if persistent."
+    },
+    "sunken_eyes": {
+      "description": "Eyes that appear hollow or recessed.",
+      "causes": "Dehydration, aging, significant weight loss",
+      "precautions": "Increase fluid intake and maintain a balanced diet.",
+      "treatment": "Rehydration and addressing the underlying cause."
+    },
+    "breathlessness": {
+      "description": "Difficulty or discomfort in breathing.",
+      "causes": "Asthma, heart failure, anemia",
+      "precautions": "Avoid strenuous activity and seek fresh air.",
+      "treatment": "Bronchodilators, oxygen therapy, and treating the underlying condition."
+    },
+    "sweating": {
+      "description": "Excessive production of sweat, which may occur even without physical exertion.",
+      "causes": "Fever, hyperthyroidism, anxiety",
+      "precautions": "Wear breathable clothing and stay in a cool environment.",
+      "treatment": "Antiperspirants, medications, and addressing underlying causes."
+    },
+    "dehydration": {
+      "description": "A state where the body loses more fluids than it takes in.",
+      "causes": "Insufficient fluid intake, excessive sweating, diarrhoea or vomiting",
+      "precautions": "Drink adequate fluids and monitor fluid loss during illness.",
+      "treatment": "Oral rehydration solutions and, in severe cases, intravenous fluids."
+    },
+    "indigestion": {
+      "description": "Discomfort or pain in the upper abdomen often after eating.",
+      "causes": "Overeating, acid reflux, gastritis",
+      "precautions": "Eat smaller, more frequent meals and avoid trigger foods.",
+      "treatment": "Antacids, dietary modifications, and consult a doctor if persistent."
+    },
+    "headache": {
+      "description": "Pain in any region of the head.",
+      "causes": "Stress, migraine, dehydration",
+      "precautions": "Avoid excessive screen time and ensure proper hydration.",
+      "treatment": "Pain relievers, hydration, and relaxation techniques."
+    },
+    "yellowish_skin": {
+      "description": "A yellow tint to the skin, which may indicate jaundice.",
+      "causes": "Liver disease, bile duct obstruction, hemolysis",
+      "precautions": "Avoid alcohol and toxins, and get regular health check-ups.",
+      "treatment": "Treat the underlying liver or biliary condition."
+    },
+    "dark_urine": {
+      "description": "Urine that appears darker than usual.",
+      "causes": "Dehydration, liver disorders, certain medications or foods",
+      "precautions": "Maintain adequate hydration and monitor urine color.",
+      "treatment": "Increase fluid intake and seek evaluation for liver function if needed."
+    },
+    "nausea": {
+      "description": "A feeling of queasiness or the urge to vomit.",
+      "causes": "Food poisoning, gastrointestinal issues, pregnancy",
+      "precautions": "Avoid strong smells and heavy meals.",
+      "treatment": "Antiemetic medications and maintaining hydration."
+    },
+    "loss_of_appetite": {
+      "description": "A reduced desire to eat.",
+      "causes": "Depression, infections, chronic diseases",
+      "precautions": "Eat small, nutrient-rich meals and maintain a regular eating schedule.",
+      "treatment": "Address underlying causes and consider nutritional supplements if needed."
+    },
+    "pain_behind_the_eyes": {
+      "description": "A sensation of pressure or pain located behind the eyes.",
+      "causes": "Sinus congestion, migraines, eye strain",
+      "precautions": "Reduce screen time and rest in a dim environment.",
+      "treatment": "Decongestants, pain relievers, and proper eye care."
+    },
+    "back_pain": {
+      "description": "Discomfort or pain in the back region.",
+      "causes": "Muscle strain, herniated disc, poor posture",
+      "precautions": "Maintain proper posture and use ergonomic furniture.",
+      "treatment": "Pain relievers, physical therapy, and rest."
+    },
+    "constipation": {
+      "description": "Difficulty in passing stools or infrequent bowel movements.",
+      "causes": "Diet low in fiber, dehydration, sedentary lifestyle",
+      "precautions": "Increase dietary fiber and fluid intake.",
+      "treatment": "Laxatives, dietary adjustments, and regular exercise."
+    },
+    "abdominal_pain": {
+      "description": "Pain or discomfort in the abdominal area.",
+      "causes": "Irritable bowel syndrome (IBS), gastroenteritis, inflammatory bowel disease (IBD)",
+      "precautions": "Avoid trigger foods and monitor symptoms.",
+      "treatment": "Symptomatic treatment and addressing the underlying cause."
+    },
+    "diarrhoea": {
+      "description": "Frequent loose or watery stools.",
+      "causes": "Infections, food poisoning, lactose intolerance",
+      "precautions": "Maintain hydration and avoid contaminated food or water.",
+      "treatment": "Oral rehydration solutions and, if needed, anti-diarrheal medications."
+    },
+    "mild_fever": {
+      "description": "A slight increase in body temperature, often below 103°F (39.4°C).",
+      "causes": "Viral infections, inflammatory responses, mild bacterial infections",
+      "precautions": "Rest and avoid strenuous activities.",
+      "treatment": "Antipyretics, fluids, and rest."
+    },
+    "yellow_urine": {
+      "description": "Urine that appears bright yellow, possibly indicating concentration or vitamin supplements.",
+      "causes": "Dehydration, dietary factors, certain medications",
+      "precautions": "Maintain adequate hydration.",
+      "treatment": "Increase fluid intake and adjust diet if necessary."
+    },
+    "yellowing_of_eyes": {
+      "description": "A yellow tint to the whites of the eyes, typically a sign of jaundice.",
+      "causes": "Liver dysfunction, gallstones, hemolytic anemia",
+      "precautions": "Avoid alcohol and seek early medical advice.",
+      "treatment": "Evaluate liver function and treat the underlying cause."
+    },
+    "acute_liver_failure": {
+      "description": "A rapid loss of liver function.",
+      "causes": "Severe hepatitis, drug-induced liver injury, toxin ingestion",
+      "precautions": "Avoid alcohol and hepatotoxic substances.",
+      "treatment": "Hospitalization, supportive care, and possibly liver transplant."
+    },
+    "fluid_overload": {
+      "description": "Excess accumulation of fluid in the body tissues.",
+      "causes": "Kidney failure, heart failure, liver cirrhosis",
+      "precautions": "Monitor fluid intake and weight changes.",
+      "treatment": "Diuretics and treatment of the underlying condition."
+    },
+    "swelling_of_stomach": {
+      "description": "Abnormal distension or bloating of the abdomen.",
+      "causes": "Ascites due to liver disease, gastrointestinal disorders, obstruction",
+      "precautions": "Avoid salt-rich foods and seek medical evaluation.",
+      "treatment": "Treat the underlying cause and possibly use diuretics."
+    },
+    "swelled_lymph_nodes": {
+      "description": "Enlarged lymph nodes that may be tender or firm.",
+      "causes": "Infections, inflammatory conditions, lymphoma",
+      "precautions": "Monitor size and seek evaluation if persistent.",
+      "treatment": "Treatment depends on the cause; may include antibiotics or further investigation."
+    },
+    "malaise": {
+      "description": "A general feeling of discomfort or unease.",
+      "causes": "Infections, chronic illnesses, inflammatory conditions",
+      "precautions": "Ensure adequate rest and nutrition.",
+      "treatment": "Symptomatic treatment and addressing the underlying cause."
+    },
+    "blurred_and_distorted_vision": {
+      "description": "Vision that appears fuzzy or distorted.",
+      "causes": "Refractive errors, eye infections, cataracts",
+      "precautions": "Regular eye check-ups and protective eyewear when needed.",
+      "treatment": "Corrective lenses, medications, or surgical interventions as appropriate."
+    },
+    "phlegm": {
+      "description": "Thick mucus produced in the respiratory tract.",
+      "causes": "Respiratory infections, smoking, chronic bronchitis",
+      "precautions": "Avoid smoking and pollutants.",
+      "treatment": "Expectorants, hydration, and treating the underlying infection."
+    },
+    "throat_irritation": {
+      "description": "A scratchy or sore feeling in the throat.",
+      "causes": "Viral infections, allergies, dry air",
+      "precautions": "Stay hydrated and avoid irritants.",
+      "treatment": "Throat lozenges, warm fluids, and rest."
+    },
+    "redness_of_eyes": {
+      "description": "Eyes that appear red due to increased blood flow or irritation.",
+      "causes": "Conjunctivitis, allergies, eye strain",
+      "precautions": "Avoid rubbing the eyes and use protective eyewear in harsh environments.",
+      "treatment": "Eye drops, antihistamines, and proper eye hygiene."
+    },
+    "sinus_pressure": {
+      "description": "A feeling of pressure or pain in the sinus areas.",
+      "causes": "Sinusitis, allergic rhinitis",
+      "precautions": "Use a humidifier and avoid allergens.",
+      "treatment": "Decongestants, nasal sprays, and warm compresses."
+    },
+    "runny_nose": {
+      "description": "Excessive nasal discharge.",
+      "causes": "Common cold, allergies, sinus infections",
+      "precautions": "Avoid irritants and allergens.",
+      "treatment": "Antihistamines, decongestants, and nasal saline rinses."
+    },
+    "congestion": {
+      "description": "Blockage or stuffiness in the nasal passages.",
+      "causes": "Sinusitis, common cold, allergic reactions",
+      "precautions": "Keep the air moist and avoid irritants.",
+      "treatment": "Nasal decongestants, steam inhalation, and rest."
+    },
+    "chest_pain": {
+      "description": "Discomfort or pain in the chest area.",
+      "causes": "Cardiac issues, musculoskeletal problems, gastroesophageal reflux",
+      "precautions": "Avoid heavy physical exertion until evaluated.",
+      "treatment": "Medical evaluation is necessary; treatment depends on the cause."
+    },
+    "weakness_in_limbs": {
+      "description": "Reduced strength or energy in the arms or legs.",
+      "causes": "Neurological disorders, electrolyte imbalances, infections",
+      "precautions": "Avoid overexertion and seek timely medical advice.",
+      "treatment": "Supportive care, physical therapy, and treating the underlying condition."
+    },
+    "fast_heart_rate": {
+      "description": "An increased heart rate that may feel rapid or irregular.",
+      "causes": "Anxiety, hyperthyroidism, dehydration",
+      "precautions": "Avoid stimulants and manage stress.",
+      "treatment": "Beta-blockers or other medications as advised by a doctor."
+    },
+    "pain_during_bowel_movements": {
+      "description": "Discomfort or pain while passing stools.",
+      "causes": "Hemorrhoids, anal fissures, inflammatory bowel conditions",
+      "precautions": "Maintain a high-fiber diet and proper hygiene.",
+      "treatment": "Topical treatments, stool softeners, and consultation with a specialist."
+    },
+    "pain_in_anal_region": {
+      "description": "Pain localized around the anus.",
+      "causes": "Hemorrhoids, anal fissures, infections",
+      "precautions": "Keep the area clean and avoid prolonged sitting.",
+      "treatment": "Topical creams, warm baths, and medical evaluation."
+    },
+    "bloody_stool": {
+      "description": "The presence of blood in the stool.",
+      "causes": "Gastrointestinal bleeding, hemorrhoids, colorectal conditions",
+      "precautions": "Seek prompt medical evaluation.",
+      "treatment": "Diagnosis to determine the cause, followed by appropriate intervention."
+    },
+    "irritation_in_anus": {
+      "description": "Discomfort or itching in the anal region.",
+      "causes": "Skin irritation, hemorrhoids, poor hygiene",
+      "precautions": "Maintain cleanliness and use gentle cleansing agents.",
+      "treatment": "Topical medications and improved hygiene practices."
+    },
+    "neck_pain": {
+      "description": "Pain or stiffness in the neck region.",
+      "causes": "Muscle strain, cervical spondylosis, injury",
+      "precautions": "Maintain proper posture and avoid sudden neck movements.",
+      "treatment": "Pain relievers, physical therapy, and warm compresses."
+    },
+    "dizziness": {
+      "description": "A feeling of lightheadedness or unsteadiness.",
+      "causes": "Low blood pressure, dehydration, inner ear disorders",
+      "precautions": "Rise slowly from seated or lying positions.",
+      "treatment": "Hydration, rest, and medical evaluation if recurrent."
+    },
+    "cramps": {
+      "description": "Sudden, involuntary muscle contractions.",
+      "causes": "Electrolyte imbalances, overexertion, muscle fatigue",
+      "precautions": "Stretch regularly and maintain electrolyte balance.",
+      "treatment": "Massage, hydration, and electrolyte supplementation."
+    },
+    "bruising": {
+      "description": "Discoloration under the skin due to bleeding.",
+      "causes": "Injury, clotting disorders, medications such as anticoagulants",
+      "precautions": "Protect against injuries and monitor medication effects.",
+      "treatment": "Cold compresses, rest, and medical evaluation for abnormal bruising."
+    },
+    "obesity": {
+      "description": "Excessive accumulation of body fat.",
+      "causes": "Poor diet, sedentary lifestyle, genetic factors",
+      "precautions": "Maintain a balanced diet and regular physical activity.",
+      "treatment": "Lifestyle modifications, nutritional counseling, and medical support."
+    },
+    "swollen_legs": {
+      "description": "Enlarged or puffy appearance of the legs.",
+      "causes": "Heart failure, varicose veins, edema",
+      "precautions": "Elevate legs and avoid prolonged standing.",
+      "treatment": "Diuretics, compression stockings, and treating the underlying cause."
+    },
+    "swollen_blood_vessels": {
+      "description": "Enlargement or prominence of blood vessels.",
+      "causes": "Vascular inflammation, injury, varicosities",
+      "precautions": "Avoid prolonged standing and monitor vascular health.",
+      "treatment": "Medical evaluation and treatment based on the cause."
+    },
+    "puffy_face_and_eyes": {
+      "description": "Swelling in the facial area and around the eyes.",
+      "causes": "Allergic reactions, kidney problems, hypothyroidism",
+      "precautions": "Avoid allergens and monitor salt intake.",
+      "treatment": "Antihistamines, diuretics, and treating the underlying condition."
+    },
+    "enlarged_thyroid": {
+      "description": "An abnormally large thyroid gland.",
+      "causes": "Goiter, thyroid dysfunction, iodine deficiency",
+      "precautions": "Maintain adequate iodine intake and monitor thyroid function.",
+      "treatment": "Medication, dietary adjustments, and possibly surgery."
+    },
+    "brittle_nails": {
+      "description": "Weak or fragile nails that break easily.",
+      "causes": "Nutritional deficiencies, fungal infections, psoriasis",
+      "precautions": "Maintain a balanced diet and proper nail care.",
+      "treatment": "Nutritional supplements, antifungal treatments, and moisturizing."
+    },
+    "swollen_extremeties": {
+      "description": "Swelling in the arms or legs.",
+      "causes": "Edema, injury, inflammatory conditions",
+      "precautions": "Elevate affected limbs and avoid excessive salt intake.",
+      "treatment": "Diuretics and treating the underlying condition."
+    },
+    "excessive_hunger": {
+      "description": "An unusually high appetite.",
+      "causes": "Hyperthyroidism, diabetes mellitus, medication side effects",
+      "precautions": "Monitor eating habits and blood sugar levels.",
+      "treatment": "Medical evaluation and dietary management."
+    },
+    "extra_marital_contacts": {
+      "description": "Involvement in sexual relationships outside of marriage, which can be a risk factor for infections.",
+      "causes": "Increased risk for sexually transmitted infections",
+      "precautions": "Practice safe sex and regular health screenings.",
+      "treatment": "Prevention is key; treatment is based on the infection if acquired."
+    },
+    "drying_and_tingling_lips": {
+      "description": "Lips that feel dry with a tingling sensation.",
+      "causes": "Dehydration, nutritional deficiencies, environmental factors",
+      "precautions": "Use lip balm and stay hydrated.",
+      "treatment": "Topical moisturizers and addressing nutritional gaps."
+    },
+    "slurred_speech": {
+      "description": "Impaired or slowed speech.",
+      "causes": "Stroke, neurological disorders, intoxication",
+      "precautions": "Avoid driving or operating machinery until evaluated.",
+      "treatment": "Immediate medical evaluation and supportive care."
+    },
+    "knee_pain": {
+      "description": "Discomfort or pain in the knee joint.",
+      "causes": "Arthritis, injury, overuse",
+      "precautions": "Avoid excessive strain and use proper supportive footwear.",
+      "treatment": "Pain relievers, physiotherapy, and rest."
+    },
+    "hip_joint_pain": {
+      "description": "Pain or discomfort in the hip joint.",
+      "causes": "Arthritis, bursitis, injury",
+      "precautions": "Maintain a healthy weight and avoid strenuous activities.",
+      "treatment": "Anti-inflammatory medications, physiotherapy, and rest."
+    },
+    "muscle_weakness": {
+      "description": "Reduced muscle strength.",
+      "causes": "Neuromuscular disorders, electrolyte imbalances, chronic illnesses",
+      "precautions": "Avoid overexertion and maintain balanced nutrition.",
+      "treatment": "Physical therapy, nutritional support, and addressing the underlying cause."
+    },
+    "stiff_neck": {
+      "description": "Pain and limited mobility in the neck.",
+      "causes": "Muscle strain, meningitis, cervical spondylosis",
+      "precautions": "Avoid sudden movements and use supportive pillows.",
+      "treatment": "Warm compresses, pain relievers, and medical evaluation if severe."
+    },
+    "swelling_joints": {
+      "description": "Enlargement or puffiness in the joints.",
+      "causes": "Arthritis, inflammatory conditions, injury",
+      "precautions": "Avoid joint stress and maintain a healthy weight.",
+      "treatment": "Anti-inflammatory medications and physical therapy."
+    },
+    "movement_stiffness": {
+      "description": "Difficulty moving due to stiffness in the muscles or joints.",
+      "causes": "Arthritis, muscle disorders, inactivity",
+      "precautions": "Incorporate gentle stretching and regular exercise.",
+      "treatment": "Pain relievers, physiotherapy, and lifestyle modifications."
+    },
+    "spinning_movements": {
+      "description": "A sensation that the surroundings are spinning (vertigo).",
+      "causes": "Inner ear issues, vestibular disorders, low blood pressure",
+      "precautions": "Move slowly and avoid sudden head movements.",
+      "treatment": "Vestibular suppressants and balance therapy."
+    },
+    "loss_of_balance": {
+      "description": "Difficulty maintaining balance.",
+      "causes": "Neurological conditions, inner ear disorders, medication side effects",
+      "precautions": "Use support when walking and remove tripping hazards.",
+      "treatment": "Balance exercises and treating the underlying cause."
+    },
+    "unsteadiness": {
+      "description": "A feeling of being unstable or off-balance.",
+      "causes": "Vestibular disorders, fatigue, neurological issues",
+      "precautions": "Sit or lie down if feeling unsteady and seek assistance.",
+      "treatment": "Medical evaluation and supportive therapies."
+    },
+    "weakness_of_one_body_side": {
+      "description": "Reduced strength on one side of the body.",
+      "causes": "Stroke, hemiplegia, nerve damage",
+      "precautions": "Seek immediate medical attention.",
+      "treatment": "Urgent medical care and rehabilitative therapies."
+    },
+    "loss_of_smell": {
+      "description": "A decreased or lost sense of smell.",
+      "causes": "Sinus infections, COVID-19, neurological disorders",
+      "precautions": "Avoid hazardous substances and seek evaluation if persistent.",
+      "treatment": "Address underlying cause and consider smell training."
+    },
+    "bladder_discomfort": {
+      "description": "Pain or discomfort in the bladder area.",
+      "causes": "Urinary tract infections, interstitial cystitis, bladder stones",
+      "precautions": "Maintain proper hydration and urinate regularly.",
+      "treatment": "Antibiotics, pain relievers, and further evaluation if needed."
+    },
+    "foul_smell_ofurine": {
+      "description": "Urine that emits a strong, unpleasant odor.",
+      "causes": "Urinary tract infections, dehydration, certain foods or medications",
+      "precautions": "Maintain good hydration and hygiene.",
+      "treatment": "Treat the underlying infection and adjust diet if necessary."
+    },
+    "continuous_feel_of_urine": {
+      "description": "A persistent sensation of needing to urinate even after voiding.",
+      "causes": "Urinary tract infections, overactive bladder, interstitial cystitis",
+      "precautions": "Avoid bladder irritants such as caffeine.",
+      "treatment": "Medications to relax the bladder and treat infections."
+    },
+    "passage_of_gases": {
+      "description": "Excess gas expelled from the digestive system.",
+      "causes": "Dietary factors, digestive disorders, food intolerances",
+      "precautions": "Monitor diet and avoid gas-producing foods.",
+      "treatment": "Over-the-counter anti-gas medications and dietary modifications."
+    },
+    "internal_itching": {
+      "description": "Itching felt internally, often affecting mucosal surfaces.",
+      "causes": "Allergic reactions, systemic infections, inflammatory conditions",
+      "precautions": "Seek medical advice if the sensation is severe or persistent.",
+      "treatment": "Address the underlying condition and symptomatic relief."
+    },
+    "toxic_look_(typhos)": {
+      "description": "An appearance that may indicate a severe infection or poisoning, often seen in typhoid fever.",
+      "causes": "Typhoid fever, sepsis",
+      "precautions": "Seek immediate medical attention if this appearance is observed.",
+      "treatment": "Hospitalization and aggressive antibiotic treatment."
+    },
+    "depression": {
+      "description": "A persistent feeling of sadness or loss of interest.",
+      "causes": "Mental health disorders, hormonal imbalances, chronic stress",
+      "precautions": "Seek mental health support and maintain a supportive environment.",
+      "treatment": "Therapy, counseling, and medication as prescribed by a mental health professional."
+    },
+    "irritability": {
+      "description": "A tendency to become easily annoyed or angered.",
+      "causes": "Stress, hormonal changes, lack of sleep",
+      "precautions": "Manage stress and ensure adequate rest.",
+      "treatment": "Relaxation techniques, counseling, and addressing the underlying cause."
+    },
+    "muscle_pain": {
+      "description": "Aches or soreness in the muscles.",
+      "causes": "Overexertion, strain or injury, infections",
+      "precautions": "Avoid excessive physical activity and stretch regularly.",
+      "treatment": "Pain relievers, rest, and applying warm compresses."
+    },
+    "altered_sensorium": {
+      "description": "Changes in awareness or perception.",
+      "causes": "Encephalopathy, severe infection, metabolic disturbances",
+      "precautions": "Seek immediate medical evaluation if mental status changes occur.",
+      "treatment": "Supportive care and treating the underlying cause."
+    },
+    "red_spots_over_body": {
+      "description": "Small red spots or rashes appearing on the skin.",
+      "causes": "Viral infections, allergic reactions, petechiae from low platelets",
+      "precautions": "Avoid scratching and monitor for spread.",
+      "treatment": "Medical evaluation and symptomatic treatment."
+    },
+    "belly_pain": {
+      "description": "Discomfort or pain in the abdominal area.",
+      "causes": "Gastrointestinal issues, infections, inflammatory conditions",
+      "precautions": "Monitor food intake and avoid known irritants.",
+      "treatment": "Symptomatic treatment and further evaluation if severe."
+    },
+    "abnormal_menstruation": {
+      "description": "Irregularities or changes in the menstrual cycle.",
+      "causes": "Hormonal imbalances, polycystic ovary syndrome (PCOS), thyroid disorders",
+      "precautions": "Keep a menstrual diary and monitor symptoms.",
+      "treatment": "Hormonal therapy and lifestyle modifications as advised by a gynecologist."
+    },
+    "dischromic_patches": {
+      "description": "Areas of skin with altered pigmentation.",
+      "causes": "Vitiligo, post-inflammatory changes, melasma",
+      "precautions": "Use sun protection and avoid skin trauma.",
+      "treatment": "Topical treatments and dermatological evaluation."
+    },
+    "watering_from_eyes": {
+      "description": "Excessive tear production.",
+      "causes": "Allergies, conjunctivitis, irritation from foreign bodies",
+      "precautions": "Avoid rubbing the eyes and use protective eyewear if needed.",
+      "treatment": "Artificial tears and antihistamines."
+    },
+    "increased_appetite": {
+      "description": "A heightened desire to eat.",
+      "causes": "Hyperthyroidism, medication side effects, stress",
+      "precautions": "Monitor food intake and avoid overeating.",
+      "treatment": "Address underlying conditions and consider dietary counseling."
+    },
+    "polyuria": {
+      "description": "Excessive production or passage of urine.",
+      "causes": "Diabetes mellitus, diuretic use, kidney dysfunction",
+      "precautions": "Monitor fluid intake and urine output.",
+      "treatment": "Manage blood sugar levels and adjust medications as needed."
+    },
+    "family_history": {
+      "description": "A record of similar conditions in family members, indicating a genetic predisposition.",
+      "causes": "Hereditary factors, genetic mutations",
+      "precautions": "Inform healthcare providers about family medical history.",
+      "treatment": "Regular check-ups and preventive measures."
+    },
+    "mucoid_sputum": {
+      "description": "Sputum with a mucus-like consistency.",
+      "causes": "Respiratory infections, bronchitis, asthma",
+      "precautions": "Avoid smoking and exposure to pollutants.",
+      "treatment": "Expectorants, hydration, and treatment of the underlying cause."
+    },
+    "rusty_sputum": {
+      "description": "Sputum that has a rust-like color, indicating the presence of blood.",
+      "causes": "Pneumonia, lung infections, tuberculosis",
+      "precautions": "Seek prompt medical evaluation if noticed.",
+      "treatment": "Antibiotic therapy and further diagnostic tests."
+    },
+    "lack_of_concentration": {
+      "description": "Difficulty in focusing or maintaining attention.",
+      "causes": "ADHD, sleep deprivation, stress",
+      "precautions": "Maintain a structured routine and minimize distractions.",
+      "treatment": "Behavioral therapy, adequate rest, and possibly medication."
+    },
+    "visual_disturbances": {
+      "description": "Problems with sight, including blurriness or double vision.",
+      "causes": "Refractive errors, migraine, eye conditions",
+      "precautions": "Regular eye examinations and proper lighting while reading.",
+      "treatment": "Corrective lenses or other treatments as recommended by an eye specialist."
+    },
+    "receiving_blood_transfusion": {
+      "description": "A history of blood transfusions, which may be relevant as a risk factor.",
+      "causes": "Exposure to bloodborne pathogens, underlying anemia",
+      "precautions": "Ensure transfusions are conducted in sterile settings.",
+      "treatment": "Follow-up testing and monitoring after transfusions."
+    },
+    "receiving_unsterile_injections": {
+      "description": "A history of receiving injections under non-sterile conditions, increasing infection risk.",
+      "causes": "Bloodborne pathogens, hepatitis B/C",
+      "precautions": "Avoid non-sterile medical procedures.",
+      "treatment": "Screening for infections and appropriate treatment if detected."
+    },
+    "coma": {
+      "description": "A prolonged state of unconsciousness.",
+      "causes": "Severe brain injury, drug overdose, metabolic disturbances",
+      "precautions": "Immediate medical intervention is critical.",
+      "treatment": "Intensive care and supportive treatments."
+    },
+    "stomach_bleeding": {
+      "description": "Internal bleeding within the stomach, which may be life-threatening.",
+      "causes": "Peptic ulcers, gastritis, esophageal varices",
+      "precautions": "Avoid NSAIDs and seek immediate help if bleeding is suspected.",
+      "treatment": "Hospitalization, endoscopy, and medications to reduce acid."
+    },
+    "distention_of_abdomen": {
+      "description": "Abnormal swelling or enlargement of the abdomen.",
+      "causes": "Ascites, intestinal blockage, organ enlargement",
+      "precautions": "Monitor abdominal girth and seek evaluation for sudden changes.",
+      "treatment": "Medical assessment and management based on the underlying cause."
+    },
+    "history_of_alcohol_consumption": {
+      "description": "A background of regular or excessive alcohol intake, which can predispose to other conditions.",
+      "causes": "Liver disease, pancreatitis, nutritional deficiencies",
+      "precautions": "Limit alcohol intake and seek help for dependency if needed.",
+      "treatment": "Lifestyle modifications and treatment for alcohol-related conditions."
+    },
+    "blood_in_sputum": {
+      "description": "The presence of blood mixed with mucus when coughing.",
+      "causes": "Tuberculosis, lung cancer, severe infections",
+      "precautions": "Seek immediate medical evaluation if noticed.",
+      "treatment": "Diagnostic tests and appropriate treatment based on the cause."
+    },
+    "prominent_veins_on_calf": {
+      "description": "Visible, enlarged veins in the calf region.",
+      "causes": "Varicose veins, deep vein thrombosis (DVT)",
+      "precautions": "Avoid prolonged sitting and exercise regularly.",
+      "treatment": "Compression stockings and, if necessary, medical intervention."
+    },
+    "palpitations": {
+      "description": "The sensation of a rapid or irregular heartbeat.",
+      "causes": "Arrhythmia, anxiety, hyperthyroidism",
+      "precautions": "Avoid stimulants and manage stress.",
+      "treatment": "Beta-blockers or other medications as prescribed by a doctor."
+    },
+    "painful_walking": {
+      "description": "Discomfort or pain experienced while walking.",
+      "causes": "Claudication, joint problems, muscle strain",
+      "precautions": "Avoid overexertion and use supportive footwear.",
+      "treatment": "Pain relievers and evaluation for vascular or musculoskeletal issues."
+    },
+    "pus_filled_pimples": {
+      "description": "Acne lesions that contain pus.",
+      "causes": "Bacterial skin infections, acne vulgaris",
+      "precautions": "Maintain proper facial hygiene and avoid touching the face.",
+      "treatment": "Topical antibiotics and acne medications."
+    },
+    "blackheads": {
+      "description": "Small dark spots on the skin caused by clogged pores.",
+      "causes": "Excess sebum production, acne",
+      "precautions": "Cleanse skin regularly and use non-comedogenic products.",
+      "treatment": "Topical retinoids and proper skin care."
+    },
+    "scurring": {
+      "description": "Crusty or scab-like formations on the skin as wounds heal.",
+      "causes": "Skin infections, healing of skin injuries",
+      "precautions": "Keep wounds clean and covered.",
+      "treatment": "Proper wound care and, if necessary, topical antibiotics."
+    },
+    "skin_peeling": {
+      "description": "The shedding or flaking of the outer skin layer.",
+      "causes": "Sunburn, dermatitis, severe allergic reactions",
+      "precautions": "Avoid excessive sun exposure and use sunscreen.",
+      "treatment": "Moisturizers and soothing lotions, with medical advice if severe."
+    },
+    "silver_like_dusting": {
+      "description": "A fine, dust-like appearance on the skin resembling silver particles.",
+      "causes": "Psoriasis, fungal infections",
+      "precautions": "Keep skin clean and avoid irritants.",
+      "treatment": "Topical treatments and consultation with a dermatologist."
+    },
+    "small_dents_in_nails": {
+      "description": "Indentations or pits on the surface of the nails.",
+      "causes": "Nail trauma, psoriasis",
+      "precautions": "Protect nails from injury and maintain good nail care.",
+      "treatment": "Nutritional support and topical treatments if needed."
+    },
+    "inflammatory_nails": {
+      "description": "Nails showing signs of inflammation, discoloration, or damage.",
+      "causes": "Fungal infections, psoriasis",
+      "precautions": "Keep nails dry and trimmed.",
+      "treatment": "Antifungal treatments and appropriate nail care."
+    },
+    "blister": {
+      "description": "A small pocket of fluid that forms between the upper layers of the skin.",
+      "causes": "Friction, burns, allergic reactions",
+      "precautions": "Avoid further friction and protect the area.",
+      "treatment": "Keep clean, use protective dressings, and let heal naturally."
+    },
+    "red_sore_around_nose": {
+      "description": "A painful, red lesion near the nose.",
+      "causes": "Acne, skin infections",
+      "precautions": "Avoid picking at the area and maintain hygiene.",
+      "treatment": "Topical antibiotics and consultation with a dermatologist."
+    },
+    "yellow_crust_ooze": {
+      "description": "Yellowish, crusty discharge from skin lesions.",
+      "causes": "Impetigo, bacterial skin infections",
+      "precautions": "Avoid touching the lesions and maintain hygiene.",
+      "treatment": "Antibiotic ointments and medical evaluation if spread occurs."
+    },
+    "prognosis": {
+      "description": "An expected outcome or course of a disease based on current evidence.",
+      "causes": "Depends on the underlying condition and treatment effectiveness",
+      "precautions": "Follow up regularly with healthcare providers.",
+      "treatment": "Management varies based on diagnosis and individual factors."
+    }
+  }
+  
